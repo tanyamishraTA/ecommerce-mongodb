@@ -34,7 +34,7 @@
 
 **Result**
 
-```
+```json
 [
   {
     "_id": "6a587505324197059a06519e",
@@ -316,7 +316,7 @@
 **Endpoint:** `GET /aggregation/user-orders`
 
 **Result**
-```
+```json
 [
   {
     "name": "Tanya Mishra",
@@ -431,7 +431,7 @@
 
 **Result**
 
-```
+```json
 [
   {
     "name": "Tanya Mishra",
