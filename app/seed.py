@@ -139,7 +139,7 @@ def seed_database():
             "quantity": 1,
             "total_amount": 6000,
             "status": "Processing",
-            "order_date": datetime.utcnow()
+            "order_date": datetime.now()
         },
         {
             "user_id": anjali_id,
