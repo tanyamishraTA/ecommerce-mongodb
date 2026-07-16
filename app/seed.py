@@ -87,21 +87,21 @@ def seed_database():
             "email": "tanya@gmail.com",
             "phone": "9876543210",
             "city": "Noida",
-            "created_at": datetime.utcnow()
+            "created_at": datetime.now()
         },
         {
             "name": "Rahul Sharma",
             "email": "rahul@gmail.com",
             "phone": "9876543211",
             "city": "Delhi",
-            "created_at": datetime.utcnow()
+            "created_at": datetime.now()
         },
         {
             "name": "Anjali Verma",
             "email": "anjali@gmail.com",
             "phone": "9876543212",
             "city": "Lucknow",
-            "created_at": datetime.utcnow()
+            "created_at": datetime.now()
         }
     ]
 
@@ -123,7 +123,7 @@ def seed_database():
             "quantity": 1,
             "total_amount": 95000,
             "status": "Delivered",
-            "order_date": datetime.utcnow()
+            "order_date": datetime.now()
         },
         {
             "user_id": tanya_id,
@@ -131,7 +131,7 @@ def seed_database():
             "quantity": 2,
             "total_amount": 1100,
             "status": "Delivered",
-            "order_date": datetime.utcnow()
+            "order_date": datetime.now()
         },
         {
             "user_id": rahul_id,
@@ -147,7 +147,7 @@ def seed_database():
             "quantity": 3,
             "total_amount": 1650,
             "status": "Delivered",
-            "order_date": datetime.utcnow()
+            "order_date": datetime.now()
         }
     ]
 
