@@ -1,5 +1,7 @@
-from app.database.connection import db
 from datetime import datetime
+
+from app.database.connection import db
+from app.utils.serializer import serialize_data
 
 users = db["users"]
 
@@ -13,4 +15,5 @@ def create_user(user_data):
 
 
 def get_users():
-    return list(users.find())
+    users_list = list(users.find())
+    return serialize_data(users_list)

@@ -1,4 +1,5 @@
 from app.database.connection import db
+from app.utils.serializer import serialize_data
 
 categories = db["categories"]
 
@@ -9,4 +10,5 @@ def create_category(data):
 
 
 def get_categories():
-    return list(categories.find())
+    category_list = list(categories.find())
+    return serialize_data(category_list)
